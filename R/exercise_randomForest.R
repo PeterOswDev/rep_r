@@ -20,3 +20,5 @@ model
 pred <- predict(model, newdata = test)
 table(pred, test$taste)
 (482 +252 + 667) / nrow(test)
+a<-20
+print(a)
